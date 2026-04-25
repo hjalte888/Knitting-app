@@ -30,6 +30,10 @@ Build and run only through Xcode (no CLI build target). Simulator works without 
 
 **Yarn finder** (`Services/YarnDatabase.swift`): Loads `Resources/yarns.json` at init. `findAlternatives(for:tolerance:)` scores candidates by gauge distance. Add new yarns directly to `yarns.json` — the format is documented at the top of that file.
 
+## Git-workflow
+
+Commit og push efter hver afsluttet fase. Brug beskrivende commit-beskeder (fx `feat: projekttracker CRUD`). Feature-branches til større ændringer: `git checkout -b feature/navn`. Push: `git push origin main`.
+
 ## Key files
 
 | File | Purpose |
